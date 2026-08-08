@@ -1,4 +1,4 @@
-import os 
+
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
@@ -22,7 +22,7 @@ chain1 = prompt1 | model | parser | prompt2 | model | parser #this chain consist
 chain2 = prompt1 | model | parser | prompt3 | model | parser #this chain consists of 2 prompts first generates a long text on the given topic second prompts takes it as input and generates 10 questions based on it
 chain3 = prompt4 | model | parser #this chain has a single prompt which takes result of chain1 and chain2 and input and merges them to give a single output
 
-topic = "Jeffrey Epstein"
+topic = input("Enter a topic: ")
 result = chain3.invoke({
     "summary": chain1.invoke(topic),
     "quiz":chain2.invoke(topic)
