@@ -1,0 +1,6 @@
+langchain-core
+langchain-openai
+langchain-google-genai
+langchain-groq
+langchain-ollama
+python-dotenv
