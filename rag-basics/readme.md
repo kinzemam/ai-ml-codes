@@ -153,6 +153,10 @@ This project helped me understand the fundamental components of a RAG system:
 * LLM invocation
 * Basic RAG architecture
 
+## EXAMPLE RUN - 
+<img width="2226" height="521" alt="image" src="https://github.com/user-attachments/assets/c3743ddf-7841-49f2-a1e2-0e051841ef54" />
+
+
 ## 📌 Current Limitations
 
 This is a learning project, so it intentionally uses a simple setup.
