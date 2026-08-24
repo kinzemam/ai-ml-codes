@@ -1,0 +1,7 @@
+langchain-core
+langchain-groq
+langchain-ollama
+python-dotenv
+langchain-text-splitters
+langchain-community
+numpy
