@@ -1,4 +1,4 @@
-# YouTube RAG
+# YouTube RAG - V1
 
 A simple Retrieval-Augmented Generation (RAG) project that takes a YouTube video ID, retrieves its transcript, stores transcript chunks as embeddings in Chroma, and uses an LLM to answer questions based on the video content.
 
