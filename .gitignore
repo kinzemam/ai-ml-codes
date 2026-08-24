@@ -8,6 +8,11 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.venv/
+__pycache__/
+.env
+chroma_db/
+*.pyc
 build/
 develop-eggs/
 dist/

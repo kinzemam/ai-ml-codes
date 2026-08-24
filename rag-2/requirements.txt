@@ -1,0 +1,9 @@
+langchain-core
+python-dotenv
+langchain-groq
+langchain-ollama
+langchain-community 
+langchain-text-splitters
+pypdf
+numpy
+langchain-chroma
